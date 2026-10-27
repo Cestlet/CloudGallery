@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <application android:usesCleartextTraffic="true" tools:replace="android:usesCleartextTraffic">
+        <activity android:name=".QuickImportFixtureActivity" android:exported="true" android:label="模拟导图测试" />
+        <service android:name=".XhsSourceProbeService" android:label="PixNexus Gallary 图源诊断（模拟版）"
+            android:exported="true" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter><action android:name="android.accessibilityservice.AccessibilityService" /></intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/xhs_source_probe" />
+        </service>
+    </application>
+</manifest>

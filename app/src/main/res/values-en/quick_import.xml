@@ -1,0 +1,4 @@
+<resources>
+    <string name="quick_import_service_label">PixNexus Gallary Quick import</string>
+    <string name="quick_import_accessibility_description">After both volume keys are pressed, read the XHS image page and invoke only clearly identified share and copy-link buttons. Read the newly copied link and upload the current image. No coordinate taps; uncertain buttons stop the import.</string>
+</resources>

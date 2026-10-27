@@ -1,0 +1,4 @@
+# Copy the Baidu entries into your ignored local.properties.
+# Keep your existing sdk.dir unchanged. Do not put credentials in this example.
+baidu.appKey=
+baidu.secret=

@@ -1,0 +1,13 @@
+<resources>
+    <string name="quick_import_service_label">PixNexus Gallary 快速导图</string>
+    <string name="quick_import_accessibility_description">按双音量键后读取小红书图片页码，仅对明确识别的独立分享和复制链接按钮执行无障碍点击，读取新复制的链接并上传当前图片。不使用坐标点击；无法确认按钮就停止。</string>
+    <style name="QuickImportCaptureTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
